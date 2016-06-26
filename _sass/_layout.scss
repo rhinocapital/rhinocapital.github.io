@@ -181,6 +181,9 @@
 
 .page-title {
     font-size: 80px;
+    @include media-query($on-palm) {
+        font-size: 60px;
+    }
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
@@ -190,6 +193,9 @@
     display: block;
     clear: both;
     font-size: 20px;
+    @include media-query($on-palm) {
+        font-size: 14px;
+    }
     font-weight: 100;
 }
 

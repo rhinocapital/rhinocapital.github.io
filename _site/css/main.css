@@ -295,12 +295,18 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold; }
+  @media screen and (max-width: 600px) {
+    .page-title {
+      font-size: 60px; } }
 
 .page-title__sub {
   display: block;
   clear: both;
   font-size: 20px;
   font-weight: 100; }
+  @media screen and (max-width: 600px) {
+    .page-title__sub {
+      font-size: 14px; } }
 
 .page-heading {
   font-size: 20px; }
